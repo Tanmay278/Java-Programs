@@ -1,7 +1,8 @@
+//TANMAY-16500117016
 import java.util.*;
 public class NPE
 {
-    public static void main(String ts7[])
+    static void main(String ts7[])
     {
         Scanner sc=new Scanner(System.in);
         String tan=null;
@@ -13,7 +14,7 @@ public class NPE
         {
             System.out.println("Exception Caught");
         }
-        finally
+        finally//TANMAY
         {
             System.out.println("Program Completed");
         }
